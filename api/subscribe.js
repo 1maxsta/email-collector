@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   }
 
   const apiKey = process.env.KLAVIYO_API_KEY;
-  const listId = 'VrBVdr';
+  const listId = 'TWxiSf';
 
   try {
     const response = await fetch(`https://a.klaviyo.com/api/profiles/`, {
